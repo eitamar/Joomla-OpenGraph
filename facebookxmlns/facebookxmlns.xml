@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="system">
+      <name>Facebook xmlns</name>
+      <author>Itamar Elharar</author>
+      <creationDate>July 2011</creationDate>
+      <copyright>Copyright (C) 2005 - 2011 Itamar Elharar. All rights reserved.</copyright>
+      <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+      <authorEmail>eitamar@gmail.com</authorEmail>
+      <authorUrl>www.israeljoomla.info</authorUrl>
+      <version>1.0</version>
+      <description>PLG_SYSTEM_FACEBOOKXMLNS_XML_DESCRIPTION</description>
+
+      <files>
+            <filename plugin="facebookxmlns">facebookxmlns.php</filename>
+            <filename>index.html</filename>
+		<!--
+			if you want to install the language files in the plugin folder.
+			Create a "language" folder at the root of the pack i.e
+			language/en-GB/en-GB.plg_content_example.ini
+			language/en-GB/en-GB.plg_content_example.sys.ini
+		-->
+            <folder>language</folder>
+      </files>
+      <languages folder="language">
+		<!--
+			these files will be installed in the administrator/language folder.
+		-->
+            <language tag="en-GB">en-GB/en-GB.plg_system_facebookxmlns.ini</language>
+            <language tag="en-GB">en-GB/en-GB.plg_system_facebookxmlns.sys.ini</language>
+      </languages>
+
+      <config>
+            <fields name="params">
+                  
+                  
+                 
+
+                
+            </fields>
+      </config>
+</extension>
